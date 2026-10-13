@@ -9,6 +9,14 @@
     "48": "icons/waterfall-48.png",
     "128": "icons/waterfall-128.png"
   },
+  "action": {
+    "default_icon": {
+      "16": "icons/waterfall-16.png",
+      "32": "icons/waterfall-32.png",
+      "48": "icons/waterfall-48.png",
+      "128": "icons/waterfall-128.png"
+    }
+  },
   "content_scripts": [
     {
       "matches": ["https://flow.google.com/*"],
