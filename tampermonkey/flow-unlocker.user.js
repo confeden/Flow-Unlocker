@@ -2,6 +2,8 @@
 // @name         Flow Unlocker
 // @namespace    https://flow.google.com/
 // @version      1.0.0
+// @updateURL    https://raw.githubusercontent.com/confeden/Flow-Unlocker/main/tampermonkey/flow-unlocker.user.js
+// @downloadURL  https://raw.githubusercontent.com/confeden/Flow-Unlocker/main/tampermonkey/flow-unlocker.user.js
 // @description  Client-side region availability compatibility for Google Flow
 // @match        https://flow.google.com/*
 // @run-at       document-start

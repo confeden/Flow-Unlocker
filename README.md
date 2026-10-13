@@ -1,18 +1,25 @@
 # Flow Unlocker
 
-Расширение Chrome и userscript для Google Flow.
+Расширение для Chrome и userscript для [Google Flow](https://flow.google.com/): клиентская совместимость с региональной доступностью сервиса.
 
-## Установка в Chrome
+## Установка расширения
 
-1. Откройте `chrome://extensions` и включите **Режим разработчика**.
-2. Нажмите **Загрузить распакованное** и укажите папку `extension` — в ней находится `manifest.json`.
+1. Скачайте архив `Flow_Unlocker_v1.0.0.zip` из [раздела релизов](https://github.com/confeden/Flow-Unlocker/releases).
+2. Распакуйте архив в удобное место.
+3. Перейдите в `chrome://extensions/`.
+4. Включите **«Режим разработчика»** (Developer mode).
+5. Нажмите **«Загрузить распакованное расширение»** (Load unpacked) и выберите распакованную папку, в которой находится `manifest.json`.
 
-Для этой копии проекта путь: `D:\Documents\Coding\Flow Unlocker\extension`.
+## Установка userscript (Tampermonkey)
 
-## Tampermonkey
+Откройте прямую ссылку — Tampermonkey предложит установить скрипт:
 
-Создайте новый скрипт, удалите шаблон и вставьте содержимое [`Flow Unlocker.user.js`](tampermonkey/Flow%20Unlocker.user.js). Сохраните скрипт и откройте [Google Flow](https://flow.google.com/).
+```
+https://raw.githubusercontent.com/confeden/Flow-Unlocker/main/tampermonkey/flow-unlocker.user.js
+```
+
+Обновления подтягиваются автоматически.
 
 ## Источник идеи
 
-Идея основана на [google-flow-fix](https://github.com/myslithell/google-flow-fix). Этот репозиторий содержит адаптацию в виде userscript и расширения Chrome.
+Основано на [google-flow-fix](https://github.com/myslithell/google-flow-fix).
